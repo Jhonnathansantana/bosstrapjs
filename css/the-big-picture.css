@@ -4,7 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
  */
 body {
-  background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+  background: #76b852;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8DC26F, #76b852) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
